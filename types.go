@@ -100,6 +100,9 @@ type ContainerInfo struct {
 		Bridge      string
 		Ports       map[string][]PortBinding
 	}
+	Node            struct {
+		IP          string
+	}
 	SysInitPath    string
 	ResolvConfPath string
 	Volumes        map[string]string
